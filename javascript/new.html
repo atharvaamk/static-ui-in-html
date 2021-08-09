@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>My Example</title>
+</head>
+
+
+
+<body>
+
+    <button type="button" onclick="getMessage()">Click</button>
+    <p id="p1"></p>
+    
+    <button type="button1" onclick="myfunc()"> Click </button>
+    <p id="demo"> Js can change HTML content.</p> 
+
+    <p id="color"> Js can chnage css </p>
+    <button type="button3" onclick="mycss()"> Click to change css style </button>
+
+    <script>
+
+        
+        function getMessage()
+        {
+
+            document.getElementById("p1").innerHTML = "Hello i am atharva";
+        }
+
+        function myfunc()
+        {
+            document.getElementById("demo").innerHTML = "amk is a coder";
+        }
+
+        function mycss()
+        {
+            document.getElementById('color').style.fontSize='35px';
+            document.getElementById('color').style.color='yellow';
+        }
+        
+        </script>
+
+</body>
+
+</html>
